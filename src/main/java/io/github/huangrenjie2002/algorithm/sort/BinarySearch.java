@@ -1,17 +1,20 @@
 package io.github.huangrenjie2002.algorithm.sort;
 
 /**
- * 二分排序算法
+ * Binary search algorithm
  */
-public class BinarySort {
+public class BinarySearch {
 
     /**
-     *
-     * @param target
-     * @param arg
-     * @return
+     * if target in arg return index, not in return -1;
+     * @param target The value to look for
+     * @param arg Sorted array
+     * @return index
      */
-    public static int sort(int target, int[] arg){
+    public static int search(int target, int[] arg){
+        if(arg == null || arg.length == 0){
+            throw new NullPointerException("arg is null");
+        }
         int i = 0, j = arg.length;
         while(i < j){
             int mid = i + (j - i) >>> 1;

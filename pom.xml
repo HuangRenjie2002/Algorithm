@@ -14,7 +14,7 @@
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
     <developers>
@@ -29,7 +29,7 @@
     <scm>
         <connection>scm:git:git://github.com/HuangRenjie2002/algorithm.git</connection>
         <developerConnection>scm:git:ssh://github.com/HuangRenjie2002/algorithm.git</developerConnection>
-        <url>http://github.com/HuangRenjie2002/algorithm</url>
+        <url>https://github.com/HuangRenjie2002/algorithm</url>
     </scm>
 
 
